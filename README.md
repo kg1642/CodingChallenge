@@ -18,7 +18,7 @@ Error using initSubjectInfo (line 57)
 ERROR! Result data file already exists! Choose a different subject/session number.
 `
 
- 6. What can you do to allow to run the subject multiple times for one session? The experimenter must receive a warning if the subject id has been already used.
+ 6. What can you do to allow to run the subject multiple times for one session (e.g. during the session 1 we have run 1, run 2 and run 3)? The experimenter must receive a warning if the subject had beed run already. Devise a mechanism to prevent the owerwritting of data files.
 
 7. The probe triangle orientation is selected randomly. However, in several cases it overlays the stimulus triangle and the subject has nothing to do but just to submit the response without rotating the triangle. Modify the code to ensure the difference btw stimulus and presented probe triangle orientations no less then 30 degrees. 
 8.	Currently the task consists of 10 trials. However, if the number of trials increases we need to let the subject to rest after some number of trials completed. Please introduce this functionality into program. You can split program by block, say 2 blocks with 5 trials each and ask the experimenter to type the number of block he wants to run (1 or 2). If the block has been already run, the warning pops-up asking the experimenter to confirm his/her intention to re-run the block again. Save results of consecutive runs of the same block into separate files to avoid overwriting. Make the number of blocks modifiable, but each time ensure there is equal number of trials in each block.
