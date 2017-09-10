@@ -25,5 +25,14 @@ ERROR! Result data file already exists! Choose a different subject/session numbe
 
 ## Task 2
 There are different ways to measure the working memory capacity. The widely accepted one is closely related to the notion of “set size” – the number of items stored in the working memory.  Currently our code asks to remember only one stimulus.
-1.	Modify the code to remember 5 (n, in general) differently-oriented stimuli, placed in randomly selected 5 main orientations (say, we have selected following 5 out of 12 main orientations [30, 90, 150, 270, 340]. The triangles must be placed in these orientations plus some jitter between [-10,10]  degrees. Please ensure the triangles are not overlapping) 
+1.	Modify the code to remember 5 (n, in general) differently-oriented stimuli, placed in randomly selected 5 main orientations (say, we have selected following 5 out of 12 main orientations [30, 90, 150, 270, 340]. The triangles must be placed in these orientations plus some jitter between [-10,10]  degrees. Please ensure the triangles are not overlapping)
+
 ![alt text](https://github.com/vbabushkin/CodingChallenge/blob/master/img1.png)
+
+2.	After some delay one of the triangles with fixed orientation appears in some random location. Modify the code to  allow the subject to match the triangle location. We expect something like this:
+
+![alt text](https://github.com/vbabushkin/CodingChallenge/blob/master/img2.png)
+
+3.	The subject must receive a feedback and a score earned, like in the basic task.
+4.	Make another version of task that cues the color. In supportFiles folder load the colorwheel360.mat and pick up 5 main colors for the triangles (must be picked up from 12 equidistant colors in the matrix plus the jitter – within 5 rows up or down). You must get the following stimulus screen:
+
