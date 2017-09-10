@@ -12,7 +12,8 @@ You are provided with a real, though quite simple, experiment code ( so called T
 
 `
 Error using initSubjectInfo (line 57)
-
+'
+'
 ERROR! Result data file already exists! Choose a different subject/session number.
 `
 
