@@ -36,3 +36,22 @@ There are different ways to measure the working memory capacity. The widely acce
 3.	The subject must receive a feedback and a score earned, like in the basic task.
 4.	Make another version of task that cues the color. In supportFiles folder load the colorwheel360.mat and pick up 5 main colors for the triangles (must be picked up from 12 equidistant colors in the matrix plus the jitter – within 5 rows up or down). You must get the following stimulus screen:
 
+![alt text](https://github.com/vbabushkin/CodingChallenge/blob/master/img5.png)
+
+5. After some delay one of the triangles appears at the center. Modify the code to allow the subject to match the triangle color:
+
+![alt text](https://github.com/vbabushkin/CodingChallenge/blob/master/img3.png)
+
+6.	Make sure the probe screen duration is limited, usually, the subject has to respond within 20 seconds. If no response has been received – the program marks the corresponding values in datafile as “NaN”  and moves to another trial.
+7.	Allow the subjects to submit their response a) by clicking the mouse and rotating with mouse. b) with keys 1,2,3 and 4 and rotate with ‘t’ and ‘b’ (mimics buttonbox and dial).
+8.	It is important to ensure the stimulus duration as exact as possible. For this reason it is advisable to count the exact number of frames from the stimulus presentation interval and update the screen exactly after the last frame appears. For more info please refer to Peter Scarfe’s PTB [“Accurate Timing Demo”](http://peterscarfe.com/accuratetimingdemo.html) and [“Wait Frames Demo”](http://peterscarfe.com/waitframesdemo.html) tutorials.
+
+## Software Engineering Questions
+
+1.	The original code is designed quite poorly. It relies heavily  on global variables, that are getting overwritten during the runtime. Please modify the code following the principle of information hiding whenever it is possible.
+2.	Modify the modules/functions (you are free to add new modules/classes/functions with reduced component size) whenever it would be possible.
+3.	The original code is quite complex and hard to read. What you can do to reduce the complexity and make the code readable even for novices.
+4.	Alter your code to ensure the weak coupling and strong cohesion.
+5.	Add necessary comments to make it understandable for non-programmers.
+
+
