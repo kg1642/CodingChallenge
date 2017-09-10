@@ -9,6 +9,7 @@ You are provided with a real, though quite simple, experiment code ( so called T
 3.	Introduce your improvements. For example, if you run the program on two screens you might find the central triangle difficult to rotate. Why is it so? What can you do to improve it?
 4.	The user results file and log file overwrites each time you run the main.m (for given date). Please modify the code to prevent overwriting of data files.
 5.	Each time the code generates a new taskmap for any subject except for subject # 0. However, if the taskmap for given subject already exists it does not allow to proceed with this subject within the same session throwing the following error:
+
 `
 Error using initSubjectInfo (line 57)
 ERROR! Result data file already exists! Choose a different subject/session number.
