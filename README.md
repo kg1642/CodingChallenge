@@ -2,7 +2,7 @@
 
 # Exploring the code 
 
-You are provided with a real, though quite simple, experiment code (named TRST for Triangle Rotated Stimulus Test). Please explore the code and provide extended answers to the following questions:
+You are provided with a real, though quite simple, experiment code (named TRST for Triangle Rotated Stimulus Test). To run the code you need to have Matlab and [Psychtoolbox](http://psychtoolbox.org) installed. Please explore the code and provide extended answers to the following questions:
 
 1.	Open main.m, run it and go through all the trials. How many points were you able to earn? How easy/difficult it was to earn the points? 
 2.	How and where are the results of the experiment stored? What kind of data is collected?
